@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Registration – 24CST2225</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>24CST2225 – Design and Analysis of Algorithms</h1>
+    <p>Student Registration Form</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="publications.html">Publications</a>
+    <a href="projects.html">Projects</a>
+    <a href="registration.html">Course Registration</a>
+</nav>
+
+<section class="content">
+
+<form id="regForm">
+
+    <label>Full Name</label>
+    <input type="text" id="name" required>
+
+    <label>Register No.</label>
+    <input type="text" id="regno" required>
+
+    <label>Email</label>
+    <input type="email" id="email" required>
+
+    <label>Department</label>
+    <input type="text" id="dept" value="CSE" required>
+
+    <label>Semester</label>
+    <select id="sem">
+        <option>Semester 4</option>
+        <option>Semester 5</option>
+        <option>Semester 6</option>
+    </select>
+
+    <button type="submit">Submit</button>
+</form>
+
+<p id="message" class="hidden">Thank you! Your registration is submitted.</p>
+
+</section>
+
+<footer>
+    © 2025 | Course Coordinator – Dr. Jayakrishna V
+</footer>
+
+</body>
+</html>
